@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="icon" href="../../assets/img/favicon.ico">
+    <title>Cozy House</title>
+</head>
+
+<body class="body">
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="navl">
+                    <div class="back-navbar"></div>
+                    <div class="nav-logo">
+                        <a class="nav-logo-title" href="../main/index.html">Cozy House</a>
+                        <a class="nav-logo-text" href="../main/index.html">Shelter for pets in Boston</a>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item first-link"><a href="../main/index.html" class="nav-link">About the
+                                shelter</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link-unactive">Our pets</a></li>
+                        <li class="nav-item"><a href="../main/index.html#help" class="nav-link">Help the shelter</a>
+                        </li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                    <div class="hamb_field" id="hamb">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="our-friends">
+            <div class="container">
+                <h1 class="our-friends-title" id="title-pets">Our friends who <br>
+                    are looking for a house</h1>
+                <div class="our-friends-container">
+                    <div class="our-friends-background" data-id="1">
+                        <img class="our-friends-img" src="../../assets/img/pets-charly.png" alt="Charly">
+                        <h3 class="our-friends-card-title">Charly</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="2">
+                        <img class="our-friends-img" src="../../assets/img/pets-freddie.png" alt="freddie">
+                        <h3 class="our-friends-card-title">Freddie</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="3">
+                        <img class="our-friends-img" src="../../assets/img/pets-jennifer.png" alt="jennifer">
+                        <h3 class="our-friends-card-title">Jennifer</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="4">
+                        <img class="our-friends-img" src="../../assets/img/pets-katrine.png" alt="katrine">
+                        <h3 class="our-friends-card-title">Katrine</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="5">
+                        <img class="our-friends-img" src="../../assets/img/pets-scarlet.png" alt="scarlet">
+                        <h3 class="our-friends-card-title">Scarlet</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="6">
+                        <img class="our-friends-img" src="../../assets/img/pets-sophia.png" alt="sophia">
+                        <h3 class="our-friends-card-title">Sophia</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="7">
+                        <img class="our-friends-img" src="../../assets/img/pets-timmy.png" alt="timmy">
+                        <h3 class="our-friends-card-title">Timmy</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                    <div class="our-friends-background" data-id="8">
+                        <img class="our-friends-img" src="../../assets/img/pets-woody.png" alt="woody">
+                        <h3 class="our-friends-card-title">Woody</h3>
+                        <button class="our-friends-card-button">Learn more</button>
+                    </div>
+                </div>
+                <div class="our-pets__pagination pagination" id="pagination">
+                    <a class="pagination__arrow pagination__arrow_first-page _disabled" href="#!">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="25" transform="rotate(-180 26 26)" />
+                            <path
+                                d="M28.519 25.4482L37.5522 20.751L37.5522 22.0889L30.0425 26.0049L37.5522 29.9111L37.5522 31.249L28.519 26.5518L28.519 25.4482Z" />
+                            <path
+                                d="M14.448 25.4482L23.4812 20.751L23.4812 22.0889L15.9714 26.0049L23.4812 29.9111L23.4812 31.249L14.448 26.5518L14.448 25.4482Z" />
+                        </svg>
+                    </a>
+
+                    <a class="pagination__arrow pagination__arrow_prev _disabled" href="#!">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="25" transform="rotate(-180 26 26)" />
+                            <path
+                                d="M21.4834 25.4482L30.5166 20.751L30.5166 22.0889L23.0068 26.0049L30.5166 29.9111L30.5166 31.249L21.4834 26.5518L21.4834 25.4482Z" />
+                        </svg>
+                    </a>
+
+                    <div class="pagination__current-page" id="current-page">1</div>
+
+                    <a class="pagination__arrow pagination__arrow_next" href="#!">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="25" transform="rotate(-180 26 26)" />
+                            <path
+                                d="M21.4834 25.4482L30.5166 20.751L30.5166 22.0889L23.0068 26.0049L30.5166 29.9111L30.5166 31.249L21.4834 26.5518L21.4834 25.4482Z" />
+                        </svg>
+                    </a>
+
+                    <a class="pagination__arrow pagination__arrow_last-page" href="#!">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="25" transform="rotate(-180 26 26)" />
+                            <path
+                                d="M28.519 25.4482L37.5522 20.751L37.5522 22.0889L30.0425 26.0049L37.5522 29.9111L37.5522 31.249L28.519 26.5518L28.519 25.4482Z" />
+                            <path
+                                d="M14.448 25.4482L23.4812 20.751L23.4812 22.0889L15.9714 26.0049L23.4812 29.9111L23.4812 31.249L14.448 26.5518L14.448 25.4482Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-text-container">
+                    <div>
+                        <h5 class="footer-title-first">For questions and suggestions</h5>
+                        <div class="footer-container-icons-first">
+                            <img class="footer-icon-first" src="../../assets/img/icon-email.png" alt="email">
+                            <a class="footer-mail" href="mailto:email@shelter.com">email@shelter.com</a>
+                        </div>
+                        <div class="footer-container-icons-second">
+                            <img class="footer-icon-first" src="../../assets/img/icon-phone.png" alt="phone">
+                            <a class="footer-mail" href="tel:+74951111111">+13 674 567 75 54</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="footer-title-second">We are waiting for your visit</h5>
+                        <div class="footer-container-icons-third">
+                            <img class="footer-icon-second" src="../../assets/img/icon-marker.png" alt="marker">
+                            <a target="_blank" href="https://goo.gl/maps/XY4DkzB8ug4iEiqN8" class="footer-mail">1
+                                Central Street, Boston (entrance from the store)</a>
+                        </div>
+                        <div class="footer-container-icons-fourty">
+                            <img class="footer-icon-second" src="../../assets/img/icon-marker.png" alt="marker">
+                            <a target="_blank" href="https://goo.gl/maps/93RLxYpB9J73c7vNA" class="footer-mail">18 South
+                                Park, London </a>
+                        </div>
+                    </div>
+                </div>
+                <img class="footer-img" src="../../assets/img/footer-puppy.png" alt="puppy">
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
